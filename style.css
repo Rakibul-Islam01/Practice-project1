@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
 }
-header{
-
+body{
+    font-family: inter, sans-serif;
 }
 .header-banner{
     background-image: url("images/donation1.jpg");
@@ -29,7 +29,7 @@ header{
     line-height: 28px;
 }
 
-.header-banner button{
+.btn-primary{
     padding: 15px 30px;
     background-color: rgb(212, 83, 83);
     border: none;
@@ -37,4 +37,203 @@ header{
     margin-top: 30px;
     font-size: 18px;
     color: white;
+    text-align: center;
+}
+
+/* Secton area styles */
+.section-amount{
+    padding: 50px 330px;
+}
+.section-amount h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+}
+.donate-btn{
+    margin-top: 40px;
+}
+.section-amount p{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+}
+.amounts{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 22px;
+}
+.amount{
+    background: #FAFAFA;
+    border-radius: 5px;
+    width: 135px;
+    height: 123px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+    border-radius: 5px;
+}
+.bg-change{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+.section-amount .other-amount{
+    color: #B3B3B3;
+    margin-top: 50px;
+}
+.section-amount hr{
+    margin-top: 10px;
+}
+.btn{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section-plan >h3{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 20px;
+}
+.section-plan> p{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+    margin-bottom: 20px;
+}
+
+.donate-plans{
+    display: flex;
+    justify-content: center;
+    padding: 30px 155px;
+    align-items: center;
+    gap: 24px;
+}
+.donate-plans .donate-plan p{
+  text-align: left;
+}
+.donate-plans .donate-plan{
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 50px 22px;
+    border: none;
+}
+.donate-plans .donate-plan h4{
+   margin-bottom: 15px;
+}
+.plan-img{
+  margin-bottom: 15px;
+}
+.plan-one{
+    background: rgba(79, 157, 166, 0.1);
+}
+.plan-two{
+    background: rgba(255, 89, 89, 0.1);
+}
+.plan-three{
+    background: #FFF4D6;
+}
+.demand{
+    display: flex;
+    padding: 60px 156px;
+    gap: 83px;
+}
+.demand-left{
+   
+}
+.demand-left h3{
+    font-weight: 700;
+    font-size: 45px;
+}
+.demand-left p{
+    font-size: 18px;
+    color: #707070;
+    padding: 10px 0;
+}
+.demand-right-two h3{
+    font-weight: 700;
+    font-size: 45px;;
+}
+.demand-right-two p{
+    font-size: 18px;
+    color: #707070;
+    padding: 10px 0;
+}
+
+.demand button{
+    margin-top: 20px;
+}
+
+/* contact area */
+.contact-area{
+    padding: 60px 315px;
+}
+.contact-area h3{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+.contact-area p{
+    font-size: 18px;
+    color: #707070;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    background-color: #FFF4D6;
+    padding: 75px 170px;
+    margin-top: 30px;
+}
+.subscribe input{
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+}
+.subscribe input[type="email"]{
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    width: 275px;
+}
+.subscribe input[type="submit"]{
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    width: 155px;
+    color: white;
+}
+
+/* footer area styles */
+footer{
+    background: #000;
+}
+.footer-content{
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+}
+.footer-content h3{
+    color: #FF5959;
+    font-family: lobster, sans-serif ;
+    font-size: 36px;
+}
+.footer-content p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #D9DBE1;
 }
